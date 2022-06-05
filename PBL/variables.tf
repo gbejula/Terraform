@@ -47,3 +47,19 @@ variable "environment" {
   type = string
   description = "Environment"
 }
+
+
+variable "ami" {
+  type        = string
+  description = "AMI ID for the launch template"
+}
+
+variable "keypair" {
+  type        = string
+  description = "Key pair for the instances"
+}
+
+variable "account_no" {
+  type        = number
+  description = "the account number"
+}
