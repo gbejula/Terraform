@@ -26,4 +26,10 @@ tags = {
 ami = "ami-0fb653ca2d3203ac1"
 keypair = "ansible-jenkins-integration"
 
+# Ensure to change this to your account number
+account_no = "07032626115"
+
+master-username = "gbenga"
+
+master-password = "devops"
 
